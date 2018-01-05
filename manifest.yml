@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-test-app-binary
+  random-route: true
+  memory: 256M
+  instances: 1
+  host: cf-test-app-binary
+  buildpack: binary_buildpack
